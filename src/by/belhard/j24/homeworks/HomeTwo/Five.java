@@ -2,6 +2,9 @@ package by.belhard.j24.homeworks.HomeTwo;
 
 public class Five {
 
+    public Five() {
+    }
+
     public static void main(String[] args) {
 
         System.out.println(getPow(3, 4));
@@ -21,7 +24,7 @@ public class Five {
         double result = startSum;
         double d = proc - pen ;
             for (double u = 1; u <= years; u++)
-            result += result * d;
+            result += result * proc * d;
 
 
 
